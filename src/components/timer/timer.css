@@ -1,0 +1,60 @@
+.timer{
+    background: var(--primary-color);
+    /* max-height: 300px; */
+}
+.timer img{
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+
+.timer__content h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.timer__content h4{
+    font-size: 1rem;
+    margin-block: 0.8rem;
+}
+.timer button{
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+    background: #fff;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.timer button a:hover{
+    color: var(--primary-color);
+}
+@media screen and (max-width: 992px){
+    .timer__content h3{
+        font-size: 1.3rem;
+    }
+    .clock  h1 , .clock h5{
+        font-size: 1.1rem;
+    }
+    .clock{
+        gap: 1rem !important ;
+    } 
+    .timer-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .timer__content h3{
+        font-size: 1rem;
+    }
+    .clock  h1 , .clock h5{
+        font-size: 0.8rem;
+    }
+   
+    .gap-5{
+        gap: 1rem !important
+    }
+}

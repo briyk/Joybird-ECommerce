@@ -1,0 +1,32 @@
+footer{
+    background: var(--primary-color);
+    color: #fff ;
+    padding: 30px 0;
+}
+.footer__logo img{
+    width: 120px;
+    display: block;
+}
+.footer__logo p{
+    opacity: 0.8;
+    color: #fff;
+}
+footer ul li{
+    line-height: 38px;
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.footer-links p{
+    margin-left: 10px;
+}
+.footer-links i{
+    font-size: 1.2rem;
+}
